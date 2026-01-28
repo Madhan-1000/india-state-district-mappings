@@ -1,1 +1,73 @@
-.venv
+# ----------------------
+# Python bytecode
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ----------------------
+# Virtual environments
+# ----------------------
+.venv/
+venv/
+ENV/
+env/
+
+# ----------------------
+# Build / packaging
+# ----------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ----------------------
+# Packaging tools
+# ----------------------
+pip-wheel-metadata/
+.wheels/
+
+# ----------------------
+# Test & coverage
+# ----------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ----------------------
+# IDE / Editor junk
+# ----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+
+# ----------------------
+# Jupyter
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# MyPy / Pyright
+# ----------------------
+.mypy_cache/
+.pyright/
+
+# ----------------------
+# Local config / secrets
+# ----------------------
+.env
+.env.*
